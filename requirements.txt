@@ -1,0 +1,33 @@
+# SMS Financial Transaction Pipeline Dependencies
+
+# Core data processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Web UI and visualization
+streamlit>=1.28.0
+plotly>=5.15.0
+
+# AI/ML processing (optional)
+google-generativeai>=0.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+hashlib  # Built-in with Python
+datetime  # Built-in with Python
+re  # Built-in with Python
+logging  # Built-in with Python
+enum34>=1.1.10; python_version<'3.4'
+
+# Development and testing (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Documentation (optional)
+mkdocs>=1.4.0
+mkdocs-material>=8.5.0
