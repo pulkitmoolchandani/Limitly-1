@@ -10,7 +10,6 @@ import pandas as pd
 def test_credit_debit_parsing():
     """Test the enhanced parser with both credit and debit SMS examples"""
     
-    API_KEY = "AIzaSyArZpN-ZVmhAR3emZN9P5p2Y_hjEn8h97Q"
     
     # Sample SMS messages with both credit and debit transactions
     test_messages = [
